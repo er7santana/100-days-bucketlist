@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81B0B632C645ADA005DB60F /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81B0B622C645ADA005DB60F /* EditView.swift */; };
+		F82F67C42C64DB8A00E312A6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F67C32C64DB8A00E312A6 /* Result.swift */; };
+		F82F67C62C64E56800E312A6 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F67C52C64E56800E312A6 /* ContentViewViewModel.swift */; };
+		F82F67C82C64F2F100E312A6 /* EditViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F67C72C64F2F100E312A6 /* EditViewViewModel.swift */; };
+		F8D57CF02C638B11005A8AA5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D57CEF2C638B11005A8AA5 /* Location.swift */; };
 		F8E3CCB32C62D85300F34817 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3CCB22C62D85300F34817 /* BucketListApp.swift */; };
-		F8E3CCB52C62D85300F34817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3CCB42C62D85300F34817 /* ContentView.swift */; };
+		F8E3CCB52C62D85300F34817 /* ReadAndWriteFileContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3CCB42C62D85300F34817 /* ReadAndWriteFileContentView.swift */; };
 		F8E3CCB72C62D85700F34817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E3CCB62C62D85700F34817 /* Assets.xcassets */; };
 		F8E3CCBA2C62D85700F34817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E3CCB92C62D85700F34817 /* Preview Assets.xcassets */; };
+		F8F1AED82C62E02400CC8F17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1AED72C62E02400CC8F17 /* User.swift */; };
+		F8F1AEDB2C62E5E800CC8F17 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1AEDA2C62E5E800CC8F17 /* FileManager+Extensions.swift */; };
+		F8F1AEDD2C62E98800CC8F17 /* SwitchViewStateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1AEDC2C62E98800CC8F17 /* SwitchViewStateContentView.swift */; };
+		F8F1AEDF2C6309F100CC8F17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1AEDE2C6309F100CC8F17 /* ContentView.swift */; };
+		F8F1AEE32C630A4000CC8F17 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1AEE22C630A4000CC8F17 /* MapContentView.swift */; };
+		F8F1AEE72C63103000CC8F17 /* FaceIDContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1AEE62C63103000CC8F17 /* FaceIDContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F81B0B622C645ADA005DB60F /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		F82F67C32C64DB8A00E312A6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F82F67C52C64E56800E312A6 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		F82F67C72C64F2F100E312A6 /* EditViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewViewModel.swift; sourceTree = "<group>"; };
+		F8D57CEF2C638B11005A8AA5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F8E3CCAF2C62D85300F34817 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E3CCB22C62D85300F34817 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
-		F8E3CCB42C62D85300F34817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8E3CCB42C62D85300F34817 /* ReadAndWriteFileContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadAndWriteFileContentView.swift; sourceTree = "<group>"; };
 		F8E3CCB62C62D85700F34817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E3CCB92C62D85700F34817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8F1AED72C62E02400CC8F17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8F1AEDA2C62E5E800CC8F17 /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		F8F1AEDC2C62E98800CC8F17 /* SwitchViewStateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewStateContentView.swift; sourceTree = "<group>"; };
+		F8F1AEDE2C6309F100CC8F17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8F1AEE22C630A4000CC8F17 /* MapContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
+		F8F1AEE62C63103000CC8F17 /* FaceIDContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,11 @@
 		F8E3CCB12C62D85300F34817 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				F8F1AED92C62E5D900CC8F17 /* Extensions */,
+				F8F1AED62C62DC4100CC8F17 /* Models */,
+				F8F1AED52C62DC3F00CC8F17 /* Views */,
+				F8F1AED42C62DC3D00CC8F17 /* ViewModels */,
 				F8E3CCB22C62D85300F34817 /* BucketListApp.swift */,
-				F8E3CCB42C62D85300F34817 /* ContentView.swift */,
 				F8E3CCB62C62D85700F34817 /* Assets.xcassets */,
 				F8E3CCB82C62D85700F34817 /* Preview Content */,
 			);
@@ -65,6 +90,62 @@
 				F8E3CCB92C62D85700F34817 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8F1AED42C62DC3D00CC8F17 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F82F67C52C64E56800E312A6 /* ContentViewViewModel.swift */,
+				F82F67C72C64F2F100E312A6 /* EditViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8F1AED52C62DC3F00CC8F17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1AEE12C630A1500CC8F17 /* Playground */,
+				F8F1AEDE2C6309F100CC8F17 /* ContentView.swift */,
+				F81B0B622C645ADA005DB60F /* EditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F1AED62C62DC4100CC8F17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1AEE02C630A0A00CC8F17 /* Playground */,
+				F8D57CEF2C638B11005A8AA5 /* Location.swift */,
+				F82F67C32C64DB8A00E312A6 /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8F1AED92C62E5D900CC8F17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1AEDA2C62E5E800CC8F17 /* FileManager+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F8F1AEE02C630A0A00CC8F17 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1AED72C62E02400CC8F17 /* User.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		F8F1AEE12C630A1500CC8F17 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F8E3CCB42C62D85300F34817 /* ReadAndWriteFileContentView.swift */,
+				F8F1AEDC2C62E98800CC8F17 /* SwitchViewStateContentView.swift */,
+				F8F1AEE22C630A4000CC8F17 /* MapContentView.swift */,
+				F8F1AEE62C63103000CC8F17 /* FaceIDContentView.swift */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E3CCB52C62D85300F34817 /* ContentView.swift in Sources */,
+				F8F1AEDD2C62E98800CC8F17 /* SwitchViewStateContentView.swift in Sources */,
+				F8E3CCB52C62D85300F34817 /* ReadAndWriteFileContentView.swift in Sources */,
+				F8F1AEDF2C6309F100CC8F17 /* ContentView.swift in Sources */,
+				F8F1AEDB2C62E5E800CC8F17 /* FileManager+Extensions.swift in Sources */,
+				F8D57CF02C638B11005A8AA5 /* Location.swift in Sources */,
+				F8F1AEE72C63103000CC8F17 /* FaceIDContentView.swift in Sources */,
+				F81B0B632C645ADA005DB60F /* EditView.swift in Sources */,
+				F8F1AEE32C630A4000CC8F17 /* MapContentView.swift in Sources */,
 				F8E3CCB32C62D85300F34817 /* BucketListApp.swift in Sources */,
+				F8F1AED82C62E02400CC8F17 /* User.swift in Sources */,
+				F82F67C82C64F2F100E312A6 /* EditViewViewModel.swift in Sources */,
+				F82F67C42C64DB8A00E312A6 /* Result.swift in Sources */,
+				F82F67C62C64E56800E312A6 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +367,7 @@
 				DEVELOPMENT_TEAM = G6HATL4S2M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +397,7 @@
 				DEVELOPMENT_TEAM = G6HATL4S2M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
