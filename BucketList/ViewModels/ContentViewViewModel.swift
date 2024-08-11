@@ -27,19 +27,29 @@ enum MapOptions: String {
 extension ContentView {
     
     @Observable
-    class ViewModel {
+    class ViewModel: LocationFetcherDelegate {
         private(set) var locations: [Location]
         var selectedPlace: Location?
         var isUnlocked = false
         let mapOptions = [MapOptions.standard, .hybrid]
         var selectedMapOption = MapOptions.standard
+        var currentUserLocation: CLLocationCoordinate2D?
+        var locationFetcher: LocationFetcher
+        var currentPosition = MapCameraPosition.region(
+            MKCoordinateRegion(
+                center: CLLocationCoordinate2D(latitude: 56, longitude: -3),
+                span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10))
+        )
         
         init() {
+            locationFetcher = LocationFetcher()
             do {
                 locations = try FileManager.read()
             } catch {
                 locations = []
             }
+            
+            locationFetcher.delegate = self
         }
         
         func save() {
@@ -87,6 +97,19 @@ extension ContentView {
                 // no biometrics
             }
         }
+        
+        func fetchUserLocation() {
+            locationFetcher.start()
+        }
+        
+        func didFindLocation(_ location: CLLocationCoordinate2D) {
+            currentUserLocation = location
+            currentPosition = MapCameraPosition.region(
+                MKCoordinateRegion(
+                    center: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude),
+                    span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10))
+            )
+        }
     }
-    
 }
+

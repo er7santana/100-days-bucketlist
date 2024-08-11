@@ -22,7 +22,8 @@ struct ContentView: View {
         if viewModel.isUnlocked {
             ZStack(alignment: .topTrailing) {
                 MapReader { proxy in
-                    Map(initialPosition: startPosition) {
+//                    Map(initialPosition: startPosition) {
+                    Map(position: $viewModel.currentPosition) {
                         ForEach(viewModel.locations) { location in
                             Annotation(location.name, coordinate: location.coordinate) {
                                 Image(systemName: "star.circle")
@@ -59,6 +60,9 @@ struct ContentView: View {
                     .pickerStyle(.segmented)
                 }
                 .padding()
+            }
+            .onAppear() {
+                viewModel.fetchUserLocation()
             }
         } else {
             Button("Unlock Places", action: viewModel.authenticate)

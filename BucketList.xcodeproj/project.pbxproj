@@ -11,6 +11,7 @@
 		F82F67C42C64DB8A00E312A6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F67C32C64DB8A00E312A6 /* Result.swift */; };
 		F82F67C62C64E56800E312A6 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F67C52C64E56800E312A6 /* ContentViewViewModel.swift */; };
 		F82F67C82C64F2F100E312A6 /* EditViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F67C72C64F2F100E312A6 /* EditViewViewModel.swift */; };
+		F83F0BA72C683A7100CBDBD7 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F0BA62C683A7100CBDBD7 /* LocationFetcher.swift */; };
 		F8D57CF02C638B11005A8AA5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D57CEF2C638B11005A8AA5 /* Location.swift */; };
 		F8E3CCB32C62D85300F34817 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3CCB22C62D85300F34817 /* BucketListApp.swift */; };
 		F8E3CCB52C62D85300F34817 /* ReadAndWriteFileContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3CCB42C62D85300F34817 /* ReadAndWriteFileContentView.swift */; };
@@ -29,6 +30,7 @@
 		F82F67C32C64DB8A00E312A6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		F82F67C52C64E56800E312A6 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
 		F82F67C72C64F2F100E312A6 /* EditViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewViewModel.swift; sourceTree = "<group>"; };
+		F83F0BA62C683A7100CBDBD7 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
 		F8D57CEF2C638B11005A8AA5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F8E3CCAF2C62D85300F34817 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E3CCB22C62D85300F34817 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F83F0BA52C683A6300CBDBD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F83F0BA62C683A7100CBDBD7 /* LocationFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F8E3CCA62C62D85300F34817 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 				F8F1AED62C62DC4100CC8F17 /* Models */,
 				F8F1AED52C62DC3F00CC8F17 /* Views */,
 				F8F1AED42C62DC3D00CC8F17 /* ViewModels */,
+				F83F0BA52C683A6300CBDBD7 /* Services */,
 				F8E3CCB22C62D85300F34817 /* BucketListApp.swift */,
 				F8E3CCB62C62D85700F34817 /* Assets.xcassets */,
 				F8E3CCB82C62D85700F34817 /* Preview Content */,
@@ -228,6 +239,7 @@
 				F8F1AEE32C630A4000CC8F17 /* MapContentView.swift in Sources */,
 				F8E3CCB32C62D85300F34817 /* BucketListApp.swift in Sources */,
 				F8F1AED82C62E02400CC8F17 /* User.swift in Sources */,
+				F83F0BA72C683A7100CBDBD7 /* LocationFetcher.swift in Sources */,
 				F82F67C82C64F2F100E312A6 /* EditViewViewModel.swift in Sources */,
 				F82F67C42C64DB8A00E312A6 /* Result.swift in Sources */,
 				F82F67C62C64E56800E312A6 /* ContentViewViewModel.swift in Sources */,
@@ -368,6 +380,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please give access to yout location so you can display you position on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -398,6 +411,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please give access to yout location so you can display you position on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
